@@ -13,7 +13,7 @@ const Menu = () => {
 				<li><NavLink exact to="/" activeStyle={activeStyle}></NavLink>홈</li>
 				<li><NavLink exact to="/about" activeStyle={activeStyle}>소개</NavLink></li>
 				<li><NavLink to="/about/react?color=red" activeStyle={activeStyle}>리액트 소개</NavLink></li>
-				<li><NavLink to="/about/js?color=blue" activeStyle={activeStyle}>JS 소개</NavLink></li>
+				<li><NavLink to="/posts" activeStyle={activeStyle}>포스트 목록</NavLink></li>
 			</ul>
 		</div>
 	);
